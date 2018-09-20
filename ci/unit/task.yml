@@ -1,0 +1,12 @@
+---
+platform: linux
+
+image_resource:
+- type: docker-image
+  source: {repoistory: alpine }
+
+inputs:
+- name: behaveware
+
+run:
+  path: behaveware/ci/unit/tash.sh
