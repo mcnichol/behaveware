@@ -2,11 +2,11 @@
 platform: linux
 
 image_resource:
-- type: docker-image
-  source: {repoistory: alpine }
+  type: docker-image
+  source: { repository: alpine }
 
 inputs:
 - name: behaveware
 
 run:
-  path: behaveware/ci/unit/tash.sh
+  path: behaveware/ci/unit/task.sh

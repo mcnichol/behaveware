@@ -2,7 +2,7 @@
 resources:
 - name: behaveware
   type: git
-  source: {uri: https://github.com/mcnichol/behaveware.git, branch: master }
+  source: {uri: 'https://github.com/mcnichol/behaveware.git', branch: master }
 
 jobs:
 - name: unit
