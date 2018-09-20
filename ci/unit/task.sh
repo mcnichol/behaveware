@@ -2,4 +2,8 @@
 
 set -e -u -x
 
-ls -la -R
+cd behaveware
+
+yarn
+
+CI=true yarn test

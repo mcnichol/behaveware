@@ -21,9 +21,9 @@ class App extends Component {
                         </ul>
                     </div>
                 </header>
-                <p className="App-intro">
+                <div className="App-intro">
                     <h1 className="App-title">Leveraging today's technology to empower the decisions of tomorrow.</h1>
-                </p>
+                </div>
             </div>
         );
     }
